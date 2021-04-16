@@ -1,0 +1,259 @@
+/****** diller cars *******/
+.diller-cars {
+    margin-bottom: 20px;
+}
+.diller-cars__item {
+    padding: 20px 10px 10px 0;
+    margin-bottom: 20px;
+}
+.diller-cars__img-block {
+    width: 130px;
+    line-height: 130px;
+    height: 130px;
+    float: left;
+    margin-right: 20px;
+}
+.diller-cars__img {
+    width: 130px;
+}
+.diller-cars__info-block {
+    float: left;
+    width: 80%;
+}
+.diller-cars__info-block p {
+    margin-bottom: 5px;
+}
+.diller-cars__heading {
+    margin: 0 0 5px;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 22px;
+    float: left;
+    width: 50%;
+    font-family: "Gothampro Med", Arial, sans-serif;
+}
+.diller-cars__info {
+    color: #53b93a;
+    font-size: 18px;
+    clear: both;
+    width: 50%;
+    display: inline-block;
+    font-family: "Gothampro Med", Arial, sans-serif;
+}
+.diller-cars__auto {
+    font-family: "Gothampro Med", Arial, sans-serif;
+    font-size: 17px;
+    display: inline-block;
+    margin-right: 12px;
+}
+.diller-cars__link {
+    display: inline-block;
+    font-size: 17px;
+    color: #1c1c1c;
+}
+.diller-cars__link i:before{
+    font-size: 14px;
+}
+.diller-cars__link:hover {
+    color: #d91b30;
+}
+
+.diller-cars__adress {
+    font-family: "Gothampro Reg", Arial, sans-serif;
+    font-size: 16px;
+}
+.diller-cars__phone {
+    font-family: "Gothampro Reg", Arial, sans-serif;
+    font-size: 16px;
+}
+.diller-cars__phone-number {
+    float: right;
+    background: #d91b30;
+    color: #fff;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.diller-cars__phone-number:hover {
+    background: #991120;
+}
+.diller-cars__phone-number span{
+    font-size: 20px;
+    font-family: "Gothampro Med", Arial, sans-serif;
+}
+.diller-cars__slider {
+
+}
+@media(max-width: 1200px){
+    .diller-cars__info-block {
+        width: 75%;
+    }
+    .diller-cars__slider {
+        text-align: center;
+    }
+}
+@media(max-width: 768px){
+    .diller-cars__info-block {
+        width: 70%;
+        padding-bottom: 75px;
+        position: relative;
+        padding-left: 10px;
+    }
+    .diller-cars__phone-number {
+        position: absolute;
+        bottom: -5px;
+    }
+    .diller-cars__heading,
+    .diller-cars__info {
+        float: none;
+        width: 100%;
+    }
+
+}
+@media(max-width: 547px){
+    .diller-cars__info-block {
+        width: 100%;
+        text-align: center;
+    }
+    .diller-cars__phone-number {
+        left: 0;
+        right: 0;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .diller-cars__img-block {
+        float: none;
+        margin: 0 auto 5px;
+    }
+}
+@media(max-width: 420px){
+    .diller-cars__phone-number {
+        width: 93%;
+    }
+}
+
+
+.diller-cars__slider {
+    transition: 0s;
+    padding: 20px 0;
+    clear: both;
+    border-bottom: 1px solid #dedede;
+}
+.diller-cars__image-list {
+
+}
+.diller-cars__image-item {
+    display: inline-block;
+    margin-right: 5px;
+}
+.diller-cars__image-item a {
+
+}
+.diller-cars__image-item .slide__image {
+    width: 96px;
+    height: 60px;
+    background: #fff;
+    transition: 0.3s;
+}
+.diller-cars__image-item .slide__image:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+
+
+.filter-block__search-block {
+    float: right;
+    display: inline-block;
+    width: 260px;
+    position: relative;
+    margin-right: 20px;
+}
+.filter-block__search-block i {
+    position: absolute;
+    top: 3px;
+    left: 10px;
+}
+.filter-block__search-block i:before {
+    color: #ccc;
+}
+.filter-block__search {
+    padding: 5px 10px 5px 40px;
+    width: 100%;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-family: "Gothampro Reg", Arial, sans-serif;
+}
+@media(max-width:1200px) {
+    .filter-block__search-block {
+        float: none;
+        width: 95.5%;
+        margin: 0 0 15px;
+        display: block;
+    }
+    .diller-cars__image-list {
+        width: 100%;
+        overflow: hidden;
+        height: 60px;
+    }
+    .diller-cars__image-item {
+        margin-right: 12px;
+    }
+}
+@media(max-width: 992px){
+    .filter-block__search-block {
+        width: 97.5%;
+    }
+}
+
+
+
+
+.bread-crumbs {
+    display: inline-block;
+}
+.personal-account-button {
+    border: none;
+    background: transparent;
+    margin: 13px 0 14px 0;
+    display: none;
+}
+.bread-crumbs_close {
+    display: none !important;
+}
+.bread-crumbs__list {
+
+}
+.bread-crumbs__item {
+    display: inline-block;
+}
+.bread-crumbs__link {
+    font-family: "Gothampro Light", Arial, sans-serif;
+    font-size: 15px;
+    color: #8d8d8d;
+    line-height: 19px;
+}
+.bread-crumbs__link:after {
+    content: "\f103";
+    display: inline-block;
+    font-family: "Flaticon";
+    vertical-align: top;
+    font-size: 12px;
+    color: #8d8d8d;
+}
+.bread-crumbs__item:last-child .bread-crumbs__link:after{
+    display: none;
+}
+.bread-crumbs__link:hover {
+    color: #000;
+}
+
+@media (max-width: 992px) {
+    .bread-crumbs {
+        display: none;
+    }
+}
+
+
